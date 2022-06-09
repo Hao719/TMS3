@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-base-domain" />
+        <module name="service-user-domain" />
+        <module name="common" />
+        <module name="oms" />
+        <module name="service-oms-domain" />
+        <module name="work" />
+        <module name="service-work-domain" />
+        <module name="user" />
+        <module name="base" />
+        <module name="netty" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TMS" options="-parameters" />
+      <module name="base" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="netty" options="-parameters" />
+      <module name="oms" options="-parameters" />
+      <module name="service-api" options="-parameters" />
+      <module name="service-base-domain" options="-parameters" />
+      <module name="service-oms-domain" options="-parameters" />
+      <module name="service-user-domain" options="-parameters" />
+      <module name="service-work-domain" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="work" options="-parameters" />
+    </option>
+  </component>
+</project>
